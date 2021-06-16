@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingHorizontal="24dp"
+    android:layout_height="match_parent"
+    tools:context=".PhoneNumberFragment">
+
+    <TextView
+        android:id="@+id/actual_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/inter_family"
+        android:text="@string/get_otp"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+android:id="@+id/enter_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_extra_bold"
+        android:text="@string/enter_your_phone_number"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintTop_toBottomOf="@id/actual_number"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent" />
+    <EditText
+        android:id="@+id/country_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_border"
+        android:fontFamily="@font/inter_extra_bold"
+        android:text="@string/plus91"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:layout_marginTop="12dp"
+
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="18dp"
+        app:layout_constraintTop_toBottomOf="@id/enter_phone"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/otp_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_border"
+        android:fontFamily="@font/inter_extra_bold"
+        android:text="@string/actual_no"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="12dp"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="18dp"
+
+        app:layout_constraintTop_toBottomOf="@id/enter_phone"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/country_code" />
+
+    <Button
+        android:id="@+id/continue_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_continue"
+        android:fontFamily="@font/inter_bold"
+android:background="@drawable/chip_button"
+        android:textAllCaps="false"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/otp_et"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Aisle test</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="enter_your_phone_number">Enter your \nPhone number</string>
+    <string name="enter_the_otp">Enter the \nOTP</string>
+    <string name="_continue">Continue</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="actual_no">9876543212</string>
+    <string name="actual_no_complete">+91 9876543212</string>
+    <string name="notes">Notes</string>
+    <string name="macthes">Matches</string>
+    <string name="teena">Teena</string>
+    <string name="discover">Discover</string>
+    <string name="matches">Matches</string>
+
+    <string name="plus91">+91</string>
+    <string name="beena">Beena</string>
+    <string name="profile">Profile</string>
+    <string name="meena_23">Meena, 23</string>
+    <string name="tap_to_review_">Tap to review 50+ notes</string>
+    <string name="interested_in_you">Interested In You</string>
+    <string name="premium_member_can">Premium members can view all their likes at once</string>
+    <string name="personal_messages_to_you">Personal messages to you</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

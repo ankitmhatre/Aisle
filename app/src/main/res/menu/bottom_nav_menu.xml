@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_discover"
+        android:icon="@drawable/discover_3x"
+        android:title="@string/discover" />
+    <item
+        android:id="@+id/navigation_notes"
+        android:icon="@drawable/notes_3x"
+        android:title="@string/notes" />
+    <item
+        android:id="@+id/navigation_matches"
+        android:icon="@drawable/matches_3x"
+        android:title="@string/macthes" />
+
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/profile3x"
+        android:title="@string/profile" />
+</menu>
